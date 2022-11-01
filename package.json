@@ -1,6 +1,6 @@
 {
-  "name": "webdav",
-  "version": "4.11.0",
+  "name": "@zhxlp/webdav",
+  "version": "4.11.1",
   "description": "WebDAV client for NodeJS",
   "main": "dist/node/index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perry-mitchell/webdav-client.git"
+    "url": "git+https://github.com/zhxlp/webdav-client.git"
   },
   "keywords": [
     "webdav",
@@ -53,15 +53,15 @@
   "author": "Perry Mitchell <perry@perrymitchell.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/perry-mitchell/webdav-client/issues"
+    "url": "https://github.com/zhxlp/webdav-client/issues"
   },
-  "homepage": "https://github.com/perry-mitchell/webdav-client#readme",
+  "homepage": "https://github.com/zhxlp/webdav-client#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "base-64": "^1.0.0",
     "byte-length": "^1.0.2",
+    "entities": "^4.4.0",
     "fast-xml-parser": "^3.19.0",
-    "he": "^1.2.0",
     "hot-patcher": "^0.5.0",
     "layerr": "^0.1.2",
     "md5": "^2.3.0",

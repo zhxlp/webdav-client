@@ -1,18 +1,8 @@
 import { decode, encode } from "base-64";
-
-declare var WEB: boolean;
+import { decodeXML } from "entities";
 
 export function decodeHTMLEntities(text: string): string {
-    if (typeof WEB === "undefined") {
-        // Node
-        const he = require("he");
-        return he.decode(text);
-    } else {
-        // Nasty browser way
-        const txt = document.createElement("textarea");
-        txt.innerHTML = text;
-        return txt.value;
-    }
+    return decodeXML(text);
 }
 
 export function fromBase64(text: string): string {
